@@ -1,0 +1,57 @@
+#buttonCV {
+    display: inline-block;
+    background-color: #f25a70;
+    box-shadow: 5px 5px 0 black;
+    padding: 18px 20px;
+    margin-right: 0;  
+    cursor: pointer;  
+
+    font-family: 'Fira Code', monospace;   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px; 
+}
+
+#buttonCV:hover,.botaoDownload:hover, .botaoContato:hover {
+    color: #3944dd;
+    background-color: yellow;
+}
+
+.botaoDownload {   
+    position: absolute;
+    color: #FFFFFF;
+    width: 170px;
+    height: 60px;
+    left: 201px;
+    top: 435px;
+    cursor: pointer;
+
+    font-family: 'Fira Code', monospace;   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    
+    background: #F25A70;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.botaoContato {   
+    position: absolute;
+    color: #FFFFFF;
+    width: 170px;
+    height: 60px;
+    left: 462px;
+    top: 435px;
+    cursor: pointer;
+
+    font-family: 'Fira Code', monospace;   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    
+    background: #F25A70;
+    box-shadow: 5px 5px 0px #000000;
+}

@@ -7,28 +7,41 @@
     <title>Lucas Santos</title>
 
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/bottons.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="assets/img/logo_boy_64.png" alt="Logo do Marco Bruno" />
+        <img id="logo" src="assets/img/logo_boy_64.png" alt="Logo do Marco Bruno" />
 
         <nav>
             <a href="#" lang="en">Skills</a>
             <a href="#">Projetos</a>
             <a href="#">Sobre</a>
             <a href="#">Contatos</a>
-            <a id="button" href="#" lang="en">Download CV</a>
+            <a id="buttonCV" href="#" lang="en">Download CV</a>
         </nav>
     </header>
-    <div class="container-flut">
-        <h2 class="myName lucas">Lucas Santos</h2>
-        <h2 class="myFunc">FrontEnd Developer</h2>
-    </div>
+    <section id="firstSection">
+        <div id="leftBox">
+            <div class="container-flut">
+                <h2 class="myName lucas">Lucas Santos</h2>
+                <h2 class="myFunc">FrontEnd Developer</h2>
+            </div>
+            <div id="botoes">
+                <button class="botaoDownload">Download CV</button>
+                <button class="botaoContato">Contatos</button>
+            </div>    
+        </div>
+        <div id="rightBox"></div>
+    </section>   
 </body>
-
 </html>
