@@ -1,0 +1,12 @@
+.boxShadow {   
+    background: #3A4042; /* #3944dd*/
+    display: inline-block; 
+    height: 100px;
+    text-align: center;  
+    box-shadow: 10px 10px 0px 0px #000000;
+    padding: 42px 42px;
+}
+
+.boxShadow .title {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+.subTitle {
+    position: absolute;
+    color: #FFFFFF;  
+    width: 540px;
+    height: 30px;  
+    margin-top: 12px;
+
+    text-shadow: 4px 4px 0px #000000;  
+    
+    font-family: 'Press Start 2P';
+    font-size: 30px;       
+}

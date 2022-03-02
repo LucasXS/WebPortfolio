@@ -1,5 +1,4 @@
-#buttonCV {
-    display: inline-block;
+#buttonCV { 
     background-color: #f25a70;
     box-shadow: 5px 5px 0 black;
     padding: 18px 20px;
@@ -18,14 +17,10 @@
     background-color: yellow;
 }
 
-.botaoDownload {   
-    position: absolute;
-    color: #FFFFFF;
-    width: 170px;
-    height: 60px;
-    left: 201px;
-    top: 435px;
+.botaoDownload {       
+    color: #FFFFFF;  
     cursor: pointer;
+    padding: 20px 18px;
 
     font-family: 'Fira Code', monospace;   
     font-style: normal;
@@ -37,14 +32,10 @@
     box-shadow: 5px 5px 0px #000000;
 }
 
-.botaoContato {   
-    position: absolute;
+.botaoContato {  
     color: #FFFFFF;
-    width: 170px;
-    height: 60px;
-    left: 462px;
-    top: 435px;
     cursor: pointer;
+    padding: 20px 18px;
 
     font-family: 'Fira Code', monospace;   
     font-style: normal;
